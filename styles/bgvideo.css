@@ -1,0 +1,29 @@
+.bgvideo  {
+    width: 100%;
+    height: 70vh;
+    position: relative;
+    display: flex;
+    justify-content: right;
+}
+
+.bgvideo video {
+    width: 100%;
+    height: 70vh;
+    position: absolute;
+    top: 0;letter-spacing: 0;
+    object-fit: cover;
+}
+
+.videotext {
+     color: rgb(73, 237, 182);
+    z-index: 2; font-size: 40px;
+margin-top: 150px; margin-right: 120px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+
+.eff { width: 100%;
+    height: 70vh;
+    position: absolute;
+    top: 0;letter-spacing: 0;
+    object-fit: cover;
+z-index: 2;
+background-color: rgba(0, 0, 0, 0.127);}
